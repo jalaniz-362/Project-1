@@ -11,4 +11,18 @@
 		background-color: ivory;
 		font-size: 12px;
 	}
+
+	body{
+		background-color: ##ffff99;
+	}
+
+	h2.red{
+		text-align: center;
+		color: silver;
+		font-size: 40px;
+		text-decoration: underline;
+		padding: 5px;
+		font-family: 'Amatisc SC', cursive;
+	}
+
 }
