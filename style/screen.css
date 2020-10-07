@@ -69,6 +69,31 @@
 	}
 
 	.radio{
-		
+		height: 9px;
+		width: 9px
 	}
+
+}
+
+/*Mobile*/
+
+@media only screen and (min-width:560px){
+	
+	body{
+		background-color: #ffff99;
+	}
+
+	#main {
+		width: 35%;
+		margin-left:auto;
+		margin-right: auto;
+		border:5px inset#E6E6FA;
+		font-family: 'Indie Flower', cursive;
+		text-align: center;
+		background-color: ivory;
+		font-size:12px;
+	}
+
+
+
 }
