@@ -105,52 +105,51 @@
 
   label {
 	display: inline;
+  }
+
+  label,
+  input {
+	margin: 16px;
+  }
+
+  input[type=submit] {
+	color: black;
+	padding: 10px 25px;
+	text-align: center;
+	display: inline-block;
+	font-size: 20px;
+	margin: 4px 2px;
+	background: #ADFF2F;
+	font-family: 'Sansita Swashed', cursive;
 	}
 
-	label,input{
-		margin: 16px;
-	}
+  .container {
+	position: relative;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	cursor: pointer;
+	font-size: 13px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Teko', sans-serif;
+	font-size: 17px;
+  }
 
-	input[type=submit]{
-		color:black;
-		padding: 10px 25px;
-		text-align: center;
-		display:inline-block;
-		font-size:20px;
-		margin: 4px 2px;
+  .checkmark {
+	top:0;
+	left:0;
+	height: 9px;
+	width: 9px;
+  }
 
-		background: #ADFF2F;
-		font-family: 'Sansita Swashed', cursive;
-	}
+  .radio{
+	height: 9px;
+	width: 9px;
+  }
 
-	.container {
-		position: relative;
-		margin-bottom: 5px;
-		margin-top: 5px;
-		cursor: pointer;
-		font-size: 13px;
-		margin-left: auto;
-		margin-right: auto;
-		font-family: 'Teko', sans-serif;
-		font-size: 17px;
-	}
-
-	.checkmark {
-		top:0;
-		left:0;
-		height: 9px;
-		width: 9px;
-	}
-
-	.radio{
-		height: 9px;
-		width: 9px
-	}
-
-	input[type=submit]{
-		display:inline-block;
-		font-size: 20px;
-		font-family: 'Teko', sans-serif;
-	}
-
+  input[type=submit] {
+	display: inline-block;
+	font-size: 20px;
+	font-family: 'Teko', sans-serif;
+  }
 }
