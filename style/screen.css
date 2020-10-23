@@ -1,115 +1,110 @@
 /*Desktop */
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 800px) {
+  #main {
+	width:85%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px inset#8B008B;
+	font-family: 'Indie Flower', cursive; 
+	text-align: center;
+	background-color: ivory;
+	font-size: 20px;
+  }
 
-	#main{
-		width:85%;
-		margin-left: auto;
-		margin-right: auto;
-		border: 5px inset#8B008B;
-		font-family: 'Indie Flower', cursive; 
-		text-align: center;
-		background-color: ivory;
-		font-size: 20px;
+  body {
+	background-color: #ffff99;
+  }
+
+  h2.red {
+	text-align: center;
+	color: silver;
+	font-size: 40px;
+	text-decoration: underline;
+	padding: 5px;
+	font-family: 'Amatic SC', cursive;
 	}
 
-	 body {
-  background-color:#ffff99;
- }
-
-	h2.red{
-		text-align: center;
-		color: silver;
-		font-size: 40px;
-		text-decoration: underline;
-		padding: 5px;
-		font-family: 'Amatisc SC', cursive;
+  h4.cabeca {
+	font-family: 'Sansita Swashed', cursive;
 	}
 
-	h4.cabeca{
-		font-family: 'Sansita Swashed', cursive;
+  label {
+	display: inline;
+  }
+
+  label,
+  input {
+	margin: 5px;
 	}
 
-	label {
-		display:inline;
-	}
+  input [type=submit] {
+	color:black;
+	padding: 10px 25px;
+	text-align: center;
+	display: inline-block;
+	font-size: 20px;
+	margin: 4px 2px;
+	background: #ADFF2F;
+	font-family: 'Sansita Swashed', cursive;
+  }
 
-	label,input{
-		margin:5px;
-	}
+  .container {
+	position: relative;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	cursor: pointer;
+	font-size: 13px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Teko', sans-serif;
+	font-size: 17px;
+  }
 
-	input[type=submit]{
-		color:black;
-		padding: 10px 25px;
-		text-align: center;
-		display: inline-block;
-		font-size: 20px;
-		margin: 4px 2px;
+  .checkmark {
+	top: 0;
+	left: 0;
+	height: 9px;
+	width:9px;
+  }
 
-		background: #ADFF2F;
-		font-family: 'Sansita Swashed', cursive;
-	}
-
-	.container {
-		position: relative;
-		margin-bottom: 5px;
-		margin-top: 5px;
-		cursor:pointer;
-		font-size: 13px;
-		margin-left: auto;
-		margin-right: auto;
-		font-family: 'Teko', sans-serif;
-		font-size: 17px;
-	}
-
-	.checkmark {
-		top:0;
-		left:0;
-		height: 9px;
-		width:9px;
-	}
-
-	.radio{
-		height: 9px;
-		width: 9px
-	}
-
+  .radio{
+	height: 9px;
+	width: 9px
+  }
 }
-
 /*Mobile*/
+@media only screen and (min-width:560px) {
+  body {
+	background-color: #ffff99;
+  }
 
-@media only screen and (min-width:560px){
-	
-	body{
-		background-color: #ffff99;
-	}
+  #main {
+	width: 35%;
+	margin-left: auto;
+	margin-right: auto;
+	border:5px inset#E6E6FA;
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+	background-color: ivory;
+	font-size: 20px;
+  }
 
-	#main {
-		width: 35%;
-		margin-left:auto;
-		margin-right: auto;
-		border:5px inset#E6E6FA;
-		font-family: 'Indie Flower', cursive;
-		text-align: center;
-		background-color: ivory;
-		font-size:20px;
-	}
+  h2.red {
+	text-align: center;
+	color: silver;
+	font-size: 40px;
+	text-decoration: underline;
+	padding: 5px;
+	font-family: 'Amatic SC', cursive;
+  }
 
-	h2.red{
-		text-align: center;
-		color:silver;
-		font-size:40px;
-		text-decoration: underline;
-		padding:5px;
-		font-family: 'Amatisc SC', cursive;
-	}
+  h4.cabeca {
+	font-family: 'Sansita Swashed', cursive;
+	font-size: 17px;
+  }
 
-	h4.cabeca{
-		font-family: 'Sansita Swashed', cursive;
-		font-size: 17px;
-	}
-
-	label{
-		display:inline;
+  label {
+	display: inline;
 	}
 
 	label,input{
