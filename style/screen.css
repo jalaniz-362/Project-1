@@ -38,7 +38,6 @@ h2.red {
   line-height: 1.2em; /*Equal to 120%*/
 }
 
-
 @media only screen and (min-width: 800px) {
   #main {
 	max-width: 960px;
@@ -57,7 +56,8 @@ h2.red {
   h2.red {
 	text-align: center;
 	color: silver;
-	font-size: 40px;
+	font-size: 23px; /*Equal to 1.25em or 17pt*/
+	line-height: 1.043em; /*Equal to 24px or 104.3%*/
 	text-decoration: underline;
 	padding: 5px;
 	font-family: 'Amatic SC', cursive;
@@ -81,7 +81,8 @@ h2.red {
 	padding: 10px 25px;
 	text-align: center;
 	display: inline-block;
-	font-size: 20px;
+	font-size: 20px; /*Equal to 1em or 15pt*/
+	line-height: 1.1em; /* Equal to 22 px or 110%*/
 	margin: 4px 2px;
 	background: #ADFF2F;
 	font-family: 'Sansita Swashed', cursive;
