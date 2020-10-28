@@ -12,8 +12,17 @@ body {
   font-family: 'Indie Flower', cursive; 
   text-align: center;
   background-color: ivory;
+  font-size: 20px; /*Equal to 1.25em or 15pt*/
+  line-height: 1.2em; /*Equal to 120% or 24px*/
 }
-
+h2.red {
+	text-align: center;
+	color:silver;
+	font-size: 24px; /*Equal to 1 em or 17pt*/
+	line-height: 1.043em; /*Equal to 24px or 104.3%*/
+	text-decoration: underline;
+	font-family: 'Amatic SC', cursive;
+}
 
 
 @media only screen and (min-width: 800px) {
