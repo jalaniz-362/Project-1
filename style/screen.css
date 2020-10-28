@@ -93,11 +93,11 @@ h2.red {
 	margin-bottom: 5px;
 	margin-top: 5px;
 	cursor: pointer;
-	font-size: 13px;
+	font-size: 16px; /*Eqal to 1 em or 12 pt*/
+	line-height: 1.25em;
 	margin-left: auto;
 	margin-right: auto;
 	font-family: 'Teko', sans-serif;
-	font-size: 17px;
   }
 
   .checkmark {
@@ -119,28 +119,31 @@ h2.red {
   }
 
   #main {
-	width: 35%;
+	width: 125%;
 	margin-left: auto;
 	margin-right: auto;
 	border:5px inset#E6E6FA;
 	font-family: 'Indie Flower', cursive;
 	text-align: center;
 	background-color: ivory;
-	font-size: 20px;
   }
 
   h2.red {
 	text-align: center;
 	color: silver;
-	font-size: 40px;
+	font-size: 38px; /*Equal to 2.375em or 17pt*/
+	line-height: 1.050em; /*Equal to 42px*/
 	text-decoration: underline;
-	padding: 5px;
+	padding: 30px;
 	font-family: 'Amatic SC', cursive;
   }
 
   h4.cabeca {
 	font-family: 'Sansita Swashed', cursive;
-	font-size: 17px;
+	font-size: 18px; /*Equal to 1.125 em or 14pt*/
+	line-height: 1.167em;/*Equal to 21px*/
+	padding-top: 20px;
+	padding-bottom: 15px;
   }
 
   label {
