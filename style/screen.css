@@ -22,11 +22,11 @@
 	text-decoration: underline;
 	padding: 5px;
 	font-family: 'Amatic SC', cursive;
-	}
+  }
 
   h4.cabeca {
 	font-family: 'Sansita Swashed', cursive;
-	}
+  }
 
   label {
 	display: inline;
@@ -35,7 +35,7 @@
   label,
   input {
 	margin: 5px;
-	}
+  }
 
   input [type=submit] {
 	color:black;
@@ -121,7 +121,7 @@
 	margin: 4px 2px;
 	background: #ADFF2F;
 	font-family: 'Sansita Swashed', cursive;
-	}
+  }
 
   .container {
 	position: relative;
