@@ -5,6 +5,7 @@ body {
   line-height: 1.5em; /*30px*/
   padding-bottom: 1.165em;
 }
+
 #main {
   margin-left: auto;
   margin-right: auto;
@@ -15,6 +16,7 @@ body {
   font-size: 20px; /*Equal to 1.25em or 15pt*/
   line-height: 1.2em; /*Equal to 120% or 24px*/
 }
+
 h2.red {
 	text-align: center;
 	color:silver;
@@ -24,17 +26,28 @@ h2.red {
 	font-family: 'Amatic SC', cursive;
 }
 
+.container {
+  position: relative;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Teko', sans-serif;
+  font-size: 16px; /*Equal to 1em*/
+  line-height: 1.2em; /*Equal to 120%*/
+}
+
 
 @media only screen and (min-width: 800px) {
   #main {
-	width:85%;
+	max-width: 960px;
 	margin-left: auto;
 	margin-right: auto;
 	border: 5px inset#8B008B;
 	font-family: 'Indie Flower', cursive; 
 	text-align: center;
 	background-color: ivory;
-	font-size: 20px;
   }
 
   body {
