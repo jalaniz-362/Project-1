@@ -1,5 +1,5 @@
-/*Desktop */
-@media only screen and (max-width: 800px) {
+
+@media only screen and (min-width: 800px) {
   #main {
 	width:85%;
 	margin-left: auto;
@@ -72,7 +72,7 @@
 	width: 9px
   }
 }
-/*Mobile*/
+
 @media only screen and (min-width:560px) {
   body {
 	background-color: #ffff99;
