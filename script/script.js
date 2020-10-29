@@ -1,4 +1,6 @@
-function ValidateForm()
+
+
+function validationEvent()
 {
 	var buttonOptions = document.getElementsByName("duck");
 	for(var x =0; x<buttonOptions.length; x++)
