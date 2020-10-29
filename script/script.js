@@ -1,4 +1,4 @@
-var userRequest=document.getElementsByID('donation_but');
+var userRequest=document.getElementByID('donation_but');
 userRequest.addEventListener('click',validationEvent)
 
 function validationEvent()
