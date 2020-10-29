@@ -1,4 +1,5 @@
-
+var userRequest=document.getElementsByID('donation_but');
+userRequest.addEventListener('click',validationEvent)
 
 function validationEvent()
 {
